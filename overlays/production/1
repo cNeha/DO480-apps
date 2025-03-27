@@ -1,0 +1,6 @@
+kind: Kustomize
+bases:
+  - ../../base
+resources:
+- dbclaim-pvc.yaml
+
